@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "dates": "Termine",
+    "ensemble": "Ensemble",
+    "programme": "Programm",
+    "news": "Neuigkeiten",
+    "newsletter": "Newsletter",
+    "booking": "Booking",
+    "bookingLong": "Anfrage für Veranstalter",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  },
+  "a11y": {
+    "skip": "Zum Inhalt springen",
+    "mainnav": "Hauptnavigation",
+    "home": "Startseite",
+    "language": "Sprache wählen"
+  },
+  "home": {
+    "next": "Nächster Auftritt",
+    "who": "Wer wir sind",
+    "cardEnsemble": "Das Ensemble",
+    "news": "Neuigkeiten",
+    "details": "Zum Termin",
+    "allDates": "Alle Termine",
+    "upcoming": "Kommende Termine",
+    "date": "Datum",
+    "time": "Beginn",
+    "place": "Ort",
+    "subscribe": "Anmelden",
+    "request": "Anfrage senden",
+    "book": "Klangerie anfragen",
+    "forHosts": "Für Veranstalter",
+    "none": "Die nächsten Termine folgen in Kürze."
+  },
+  "events": {
+    "upcoming": "Kommende Termine",
+    "past": "Vergangene Termine",
+    "backAll": "← Alle Termine"
+  },
+  "news": {
+    "title": "Neuigkeiten"
+  },
+  "ensemble": {
+    "title": "Das Ensemble"
+  },
+  "orchestra": {
+    "guests": "Zu Gast",
+    "soloists": "Solist*innen",
+    "more": "Mehr erfahren"
+  },
+  "programme": {
+    "title": "Programm"
+  },
+  "booking": {
+    "title": "Klangerie anfragen"
+  },
+  "newsletter": {
+    "title": "Anmeldung zum Newsletter"
+  },
+  "legal": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "binding": "Maßgeblich ist die deutsche Fassung. Die englische Übersetzung dient nur der Information."
+  }
+}

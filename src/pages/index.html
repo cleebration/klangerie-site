@@ -1,0 +1,96 @@
+<!--meta
+{
+  "title": "Klangerie – Manufaktur für Klang",
+  "description": "Klangerie: Kammermusik aus ganz Österreich – aus der Klassik kommend, bunt gemischt, mit Eigenkompositionen und eigenen Arrangements. Fein gemischt, frisch serviert.",
+  "out": "index.html",
+  "canonical": "/",
+  "scripts": "<script type=\"module\" src=\"/assets/event-widget.i18n.js\"></script>\n<script type=\"module\" src=\"/assets/blog-widget.js\"></script>"
+}
+-->
+
+<section class="hero">
+  <div class="wrap hero__inner">
+    <p class="hero__label"><span data-lang="de">Manufaktur für Klang · Österreich</span><span data-lang="en">A workshop for sound · Austria</span></p>
+    <h1 class="hero__title"><img src="/assets/img/klangerie-wortmarke-dunkel.svg" alt="Klangerie" width="614" height="167" /></h1>
+  </div>
+  {{WELLE}}
+  <div class="wrap hero__inner">
+    <p class="hero__claim"><span data-lang="de">Fein gemischt, frisch serviert.</span><span data-lang="en">Finely blended, freshly served.</span></p>
+    <div class="hero__actions">
+      <a class="btn btn--messing" href="/booking" data-i18n="home.book">Klangerie anfragen</a>
+      <a class="btn btn--ghost" href="/termine" data-i18n="home.allDates">Alle Termine</a>
+    </div>
+  </div>
+</section>
+
+<!-- Nächster Termin: füllt site.js aus dem Events-Feed ({{FEED_EVENTS}}). -->
+<!-- Bleibt verborgen, bis es einen kommenden Termin gibt (site.js). -->
+<section class="next" data-next-feed="{{FEED_EVENTS}}" hidden>
+  <div class="wrap next__grid">
+    <div class="next__main">
+      <p class="kicker" data-i18n="home.next">Nächster Auftritt</p>
+      <h2 class="next__title" data-next="title"><span data-lang="de">Bald wieder live</span><span data-lang="en">Back on stage soon</span></h2>
+      <p class="next__summary" data-next="summary"></p>
+      <div class="next__actions">
+        <a class="textlink" data-next="link" href="/termine" data-i18n="home.details">Zum Termin</a>
+      </div>
+    </div>
+    <dl class="next__facts" data-next="facts" hidden>
+      <div><dt data-i18n="home.date">Datum</dt><dd class="next__big" data-next="date"></dd></div>
+      <div><dt data-i18n="home.time">Beginn</dt><dd class="next__big" data-next="time"></dd></div>
+      <div class="next__wide"><dt data-i18n="home.place">Ort</dt><dd data-next="place"></dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- „Wer wir sind“ – Inhalt aus der Namensfindung (24.06.2026). Wird hier gepflegt. -->
+<section class="wrap intro">
+  <div>
+    <p class="kicker" data-i18n="home.who">Wer wir sind</p>
+    <h2 class="intro__title">
+      <span data-lang="de">Aus der Klassik kommend – und neugierig auf alles, was gut klingt.</span>
+      <span data-lang="en">Rooted in classical music – and curious about everything that sounds good.</span>
+    </h2>
+  </div>
+  <div class="intro__text">
+    <div data-lang="de">
+      <p>Die Klangerie ist ein Kammermusik-Ensemble aus ganz Österreich: zwei Violinen, Klarinette, Violoncello, Kontrabass und Klavier – mal zu fünft, mal mit Schlagwerk.</p>
+      <p>Wir spielen bunt gemischt, mit eigenen Kompositionen und Arrangements, die eigens für uns entstehen. Professionell, mit Freude am Spiel und einem Augenzwinkern.</p>
+    </div>
+    <div data-lang="en">
+      <p>Klangerie is a chamber music ensemble from all over Austria: two violins, clarinet, cello, double bass and piano – sometimes as a quintet, sometimes with percussion.</p>
+      <p>Our programmes are a colourful mix, with our own compositions and arrangements written especially for us. Professional, with joy in playing and a twinkle in the eye.</p>
+    </div>
+    <p><a class="textlink" href="/ensemble" data-i18n="home.cardEnsemble">Das Ensemble</a> →</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="band__head">
+      <h2 class="h2" data-i18n="home.upcoming">Kommende Termine</h2>
+      <a class="textlink" href="/termine" data-i18n="home.allDates">Alle Termine</a>
+    </div>
+    <event-list feed="{{FEED_EVENTS}}" detail-url="/event" show="upcoming" limit="3"></event-list>
+  </div>
+</section>
+
+<section class="wrap block">
+  <h2 class="h2" data-i18n="home.news">Neuigkeiten</h2>
+  <blog-list feed="{{FEED_BLOG}}" post-url="/post" page-size="3" credit="off"></blog-list>
+</section>
+
+<section class="wrap panels">
+  <div class="panel panel--tinte">
+    <h2 class="panel__title" data-i18n="home.forHosts">Für Veranstalter</h2>
+    <p data-lang="de">Konzert, Fest oder besonderer Abend? Erzählen Sie uns vom Anlass – wir stellen Programm und Besetzung passend zusammen.</p>
+    <p data-lang="en">A concert, a celebration or a special evening? Tell us about the occasion – we put together the programme and line-up to match.</p>
+    <a class="btn btn--messing" href="/booking" data-i18n="home.request">Anfrage senden</a>
+  </div>
+  <div class="panel">
+    <h2 class="panel__title">Newsletter</h2>
+    <p data-lang="de">Neue Termine und Neuigkeiten der Klangerie per E-Mail.</p>
+    <p data-lang="en">New dates and news from Klangerie by email.</p>
+    <a class="btn btn--outline" href="/newsletter" data-i18n="home.subscribe">Anmelden</a>
+  </div>
+</section>

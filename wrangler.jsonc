@@ -1,0 +1,36 @@
+{
+  // Cloudflare Worker mit statischen Assets — Aufbau wie lko-site / babowalls.com.
+  "name": "klangerie-site",
+  "compatibility_date": "2026-10-14",
+  "main": "worker/index.js",
+
+  // workers.dev-Adresse: Vorschau, solange klangerie.at noch nicht zeigt (GoDaddy-Parkseite).
+  "workers_dev": true,
+  "preview_urls": true,
+
+  // Die eigenen Namen. Cloudflare legt die DNS-Einträge beim Deploy selbst an.
+  // Der Worker führt www.klangerie.at auf klangerie.at.
+  // Erst einkommentieren, wenn klangerie.at als Zone in Cloudflare liegt
+  // (Nameserver bei GoDaddy umgestellt). Bis dahin: klangerie-site.<konto>.workers.dev
+  // "routes": [
+  //   { "pattern": "klangerie.at",     "custom_domain": true },
+  //   { "pattern": "www.klangerie.at", "custom_domain": true }
+  // ],
+
+  // Newsletter-Secrets NICHT hier, sondern einmalig per
+  //   npx wrangler secret put EMAILOCTOPUS_API_KEY
+  //   npx wrangler secret put EMAILOCTOPUS_LIST_ID
+  "vars": {
+    "EMAILOCTOPUS_TAGS": "klangerie",
+    "EMAILOCTOPUS_API_VERSION": "v2"
+  },
+
+  "assets": {
+    "directory": "public",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "run_worker_first": true
+  },
+
+  "observability": { "enabled": true }
+}

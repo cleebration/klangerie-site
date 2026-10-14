@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "dates": "Dates",
+    "ensemble": "Ensemble",
+    "programme": "Programme",
+    "news": "News",
+    "newsletter": "Newsletter",
+    "booking": "Booking",
+    "bookingLong": "Enquiries for hosts",
+    "imprint": "Imprint",
+    "privacy": "Privacy"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "mainnav": "Main navigation",
+    "home": "Home",
+    "language": "Choose language"
+  },
+  "home": {
+    "next": "Next performance",
+    "who": "Who we are",
+    "cardEnsemble": "The ensemble",
+    "news": "News",
+    "details": "Details",
+    "allDates": "All dates",
+    "upcoming": "Upcoming dates",
+    "date": "Date",
+    "time": "Start",
+    "place": "Venue",
+    "subscribe": "Subscribe",
+    "request": "Send enquiry",
+    "book": "Book Klangerie",
+    "forHosts": "For hosts",
+    "none": "New dates will be announced soon."
+  },
+  "events": {
+    "upcoming": "Upcoming dates",
+    "past": "Past dates",
+    "backAll": "← All dates"
+  },
+  "news": {
+    "title": "News"
+  },
+  "ensemble": {
+    "title": "The ensemble"
+  },
+  "orchestra": {
+    "guests": "Guests",
+    "soloists": "Soloists",
+    "more": "Learn more"
+  },
+  "programme": {
+    "title": "Programme"
+  },
+  "booking": {
+    "title": "Book Klangerie"
+  },
+  "newsletter": {
+    "title": "Newsletter sign-up"
+  },
+  "legal": {
+    "imprint": "Imprint",
+    "privacy": "Privacy",
+    "binding": "The German version is the binding one. This English translation is for information only."
+  }
+}

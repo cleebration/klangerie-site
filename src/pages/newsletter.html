@@ -1,0 +1,22 @@
+<!--meta
+{
+  "title": "Newsletter | Klangerie",
+  "description": "Anmeldung zum Newsletter der Klangerie – neue Termine per E-Mail.",
+  "nav": "newsletter",
+  "out": "newsletter.html",
+  "scripts": "<script type=\"module\" src=\"/assets/newsletter-widget.js\"></script>"
+}
+-->
+
+<h1 class="page-title" data-i18n="newsletter.title">Anmeldung zum Newsletter</h1>
+
+<div class="wrap">
+  <!-- Newsletter-Kit → /api/subscribe (worker/index.js → functions/api/subscribe.js).
+       Schlüssel des EmailOctopus-Kontos nur als Secret beim Worker (README). -->
+  <span data-lang="de"><newsletter-signup endpoint="/api/subscribe" site="klangerie" full-name
+      heading="Newsletter" text="Neue Termine und Neuigkeiten der Klangerie per E-Mail."
+      privacy-url="/datenschutz"></newsletter-signup></span>
+  <span data-lang="en"><newsletter-signup endpoint="/api/subscribe" site="klangerie" full-name
+      heading="Newsletter" text="New dates and news from Klangerie by email."
+      privacy-url="/datenschutz"></newsletter-signup></span>
+</div>

@@ -1,0 +1,20 @@
+<!--meta
+{
+  "title": "Termine | Klangerie",
+  "description": "Kommende und vergangene Auftritte der Klangerie.",
+  "nav": "termine",
+  "out": "termine.html",
+  "scripts": "<script type=\"module\" src=\"/assets/event-widget.i18n.js\"></script>"
+}
+-->
+
+<h1 class="page-title" data-i18n="events.upcoming">Kommende Termine</h1>
+<div class="wrap">
+  <!-- „abo“ (Kalender abonnieren) ergänzen, sobald der erste Termin mit sites: [klangerie] im Hub steht – vorher gibt es den Abo-Kalender nicht. -->
+  <event-list feed="{{FEED_EVENTS}}" detail-url="/event" show="upcoming"></event-list>
+</div>
+
+<h2 class="section-title" data-i18n="events.past">Vergangene Termine</h2>
+<div class="wrap">
+  <event-list feed="{{FEED_EVENTS}}" detail-url="/event" show="past"></event-list>
+</div>

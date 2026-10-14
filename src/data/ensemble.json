@@ -1,0 +1,48 @@
+{
+  "_hinweis": "Gepflegt in der Redaktion (Werkzeug „Ensemble“). Nie löschen, nur aktiv=false. position = Rolle im Ensemble.",
+  "gruppen": [
+    {
+      "key": "vl",
+      "name": {
+        "de": "Violine",
+        "en": "Violin"
+      }
+    },
+    {
+      "key": "klar",
+      "name": {
+        "de": "Klarinette",
+        "en": "Clarinet"
+      }
+    },
+    {
+      "key": "vc",
+      "name": {
+        "de": "Violoncello",
+        "en": "Cello"
+      }
+    },
+    {
+      "key": "kb",
+      "name": {
+        "de": "Kontrabass",
+        "en": "Double bass"
+      }
+    },
+    {
+      "key": "pno",
+      "name": {
+        "de": "Klavier",
+        "en": "Piano"
+      }
+    },
+    {
+      "key": "perc",
+      "name": {
+        "de": "Schlagwerk",
+        "en": "Percussion"
+      }
+    }
+  ],
+  "personen": []
+}

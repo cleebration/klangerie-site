@@ -1,0 +1,12 @@
+{
+  "gruppen": [
+    { "key": "vl", "name": { "de": "Violine", "en": "Violin" } },
+    { "key": "pno", "name": { "de": "Klavier", "en": "Piano" } }
+  ],
+  "personen": [
+    { "id": "a", "name": "Beispiel Eins", "gruppe": "vl", "aktiv": true, "reihenfolge": 1 },
+    { "id": "b", "name": "Beispiel Zwei", "gruppe": "vl", "aktiv": false },
+    { "id": "c", "name": "Beispiel Drei", "gruppe": "pno", "aktiv": true, "link": "javascript:alert(1)" },
+    { "id": "d", "name": "Gast Vier", "art": "gast", "aktiv": true, "instrument": { "de": "Schlagwerk", "en": "Percussion" } }
+  ]
+}
