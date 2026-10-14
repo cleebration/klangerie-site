@@ -1,6 +1,6 @@
 # klangerie-site — klangerie.at
 
-Website des Kammermusik-Ensembles **Klangerie**, gebaut wie lko-site / babowalls.com / cleebration.com:
+Website des Salonorchesters **Klangerie**, gebaut wie lko-site / babowalls.com / cleebration.com:
 ein kleines Node-Skript setzt die Seiten aus Bausteinen zusammen, Termine und Neuigkeiten kommen
 zur Laufzeit aus **zwei Feeds der cleebration-Hubs** (`sites: [klangerie]`).
 Angelegt 14.10.2026 (Claude, Projekt „MyProj Klangerie“). Marke: Phase 1 Logo-System (Juli 2026),
