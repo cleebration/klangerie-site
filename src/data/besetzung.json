@@ -1,0 +1,12 @@
+{
+  "_hinweis": "Gepflegt in der Redaktion (Werkzeug „Besetzung“). Je Person: name (Pflicht), instrument, foto, link, text – Leeres erscheint nicht. Nie löschen, nur aktiv=false. Fotos: public/img/personen/ (Farbfotos; die Website färbt sie in Brauntöne).",
+  "personen": [
+    { "id": "josip-maticic", "name": "Josip Matičić", "instrument": { "de": "Violine, Notenarrangement", "en": "Violin, arrangements" }, "foto": "/img/personen/josip-maticic.jpg", "link": "https://www.youtube.com/watch?v=Ne_JXvRKgJU", "reihenfolge": 10, "aktiv": true },
+    { "id": "eva-breinschmid", "name": "Eva Breinschmid", "instrument": { "de": "Violine", "en": "Violin" }, "foto": "/img/personen/eva-breinschmid.jpg", "link": "https://www.breinschmid.at/", "reihenfolge": 20, "aktiv": true },
+    { "id": "manuela-josefine-fichtinger", "name": "Manuela-Josefine Fichtinger", "instrument": { "de": "Klarinette", "en": "Clarinet" }, "foto": "/img/personen/manuela-josefine-fichtinger.jpg", "reihenfolge": 30, "aktiv": true },
+    { "id": "karin-huf", "name": "Karin Huf", "instrument": { "de": "Klarinette", "en": "Clarinet" }, "foto": "/img/personen/karin-huf.jpg", "reihenfolge": 40, "aktiv": true },
+    { "id": "anna-puskas", "name": "Anna Puskas", "instrument": { "de": "Violoncello", "en": "Cello" }, "foto": "/img/personen/anna-puskas.jpg", "reihenfolge": 50, "aktiv": true },
+    { "id": "chris-h-leeb", "name": "Chris H. Leeb", "instrument": { "de": "Kontrabass", "en": "Double bass" }, "foto": "/img/personen/chris-h-leeb.jpg", "link": "https://www.cleebration.com/", "reihenfolge": 60, "aktiv": true },
+    { "id": "cornelia-schmidt", "name": "Cornelia Schmidt", "instrument": { "de": "Klavier", "en": "Piano" }, "foto": "/img/personen/cornelia-schmidt.jpg", "reihenfolge": 70, "aktiv": true }
+  ]
+}

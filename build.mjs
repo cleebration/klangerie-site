@@ -14,6 +14,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import config from "./site.config.mjs";
 import { renderEnsemble } from "./scripts/ensemble.mjs";
+import { renderBesetzung } from "./scripts/besetzung.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SRC = join(HERE, "src");
@@ -125,7 +126,17 @@ function fontLinks() {
   throw new Error("fonts.selfHost muss an sein (Datenschutzerklärung nennt keine Google Fonts)");
 }
 
-/** Personen der Seite /ensemble – gepflegt in der Redaktion (Werkzeug „Ensemble“). */
+/** Besetzung der Seite /ensemble – gepflegt in der Redaktion (Werkzeug „Besetzung“). */
+async function besetzungHtml() {
+  const datei = join(SRC, "data", "besetzung.json");
+  if (!existsSync(datei)) {
+    console.warn("  ! src/data/besetzung.json fehlt — /ensemble ohne Personen");
+    return "";
+  }
+  return renderBesetzung(JSON.parse(await read(datei)), config.locales, config.defaultLocale);
+}
+
+/** (alt, ungenutzt seit 15.10.2026) Werkzeug „Ensemble“ wie LKO. */
 async function ensembleHtml() {
   const datei = join(SRC, "data", "ensemble.json");
   if (!existsSync(datei)) {
@@ -159,6 +170,7 @@ const globals = {
   IMG_LOGO_COLOR: image(config.images.logoColor),
   IMG_OG: image(config.images.og),
   ENSEMBLE: await ensembleHtml(),
+  BESETZUNG: await besetzungHtml(),
   WELLE
 };
 

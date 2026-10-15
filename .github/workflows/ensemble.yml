@@ -1,7 +1,7 @@
 # Ensemble live schalten
 # ---------------------
-# Die Redaktion (Werkzeuge → Ensemble) schreibt src/data/ensemble.json und Fotos nach
-# public/assets/img/personen/. Jeder Push darauf baut und deployt die Website.
+# Die Redaktion (Werkzeuge → Besetzung) schreibt src/data/besetzung.json und Fotos nach
+# public/img/personen/ (seit 15.10.2026; vorher Werkzeug „Ensemble“). Jeder Push darauf baut und deployt die Website.
 # Secrets wie bei sprache.yml: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID.
 
 name: Ensemble
