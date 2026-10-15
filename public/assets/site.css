@@ -239,6 +239,14 @@ img { max-width: 100%; height: auto; }
 .ensemble ul { list-style: none; padding: 0; margin: 0; }
 .ensemble li { padding: .15rem 0; }
 .person__foto { width: 2.25rem; height: 2.25rem; border-radius: 50%; object-fit: cover; vertical-align: middle; margin-right: .5rem; }
+/* Besetzung mit Fotos (15.10.2026): Gruppen fließen nebeneinander, je Person eine Karte */
+.ensemble { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem 2.5rem; margin: 1rem 0 4rem; }
+.ensemble h3 { text-align: center; margin-bottom: .75rem; }
+.ensemble ul { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.25rem; }
+.ensemble li { width: 10rem; padding: 0; text-align: center; line-height: 1.35; }
+.ensemble .person__foto { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; border-radius: 10px; margin: 0 0 .6rem; border: 1px solid var(--cl-border); }
+.ensemble .person__rolle { display: block; font-size: .92rem; }
+@media (max-width: 520px) { .ensemble li { width: calc(50vw - 2.5rem); } }
 .person__rolle, .person__instrument { color: var(--cl-muted); }
 .ensemble li a, .gaeste li a, .solist a { color: var(--cl-gold-dark); }
 .gaeste { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: .35rem 2rem; }

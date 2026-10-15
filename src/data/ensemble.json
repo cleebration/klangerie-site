@@ -2,6 +2,13 @@
   "_hinweis": "Gepflegt in der Redaktion (Werkzeug „Ensemble“). Nie löschen, nur aktiv=false. position = Rolle im Ensemble.",
   "gruppen": [
     {
+      "key": "ltg",
+      "name": {
+        "de": "Leitung",
+        "en": "Direction"
+      }
+    },
+    {
       "key": "vl",
       "name": {
         "de": "Violine",
@@ -44,5 +51,90 @@
       }
     }
   ],
-  "personen": []
+  "personen": [
+    {
+      "id": "ernst-rehberger",
+      "name": "Ernst Rehberger",
+      "art": "ensemble",
+      "gruppe": "ltg",
+      "foto": "/assets/img/personen/ernst-rehberger.jpg",
+      "position": {
+        "de": "Gesamtleitung",
+        "en": "musical director"
+      },
+      "reihenfolge": 10,
+      "aktiv": true
+    },
+    {
+      "id": "josip-maticic",
+      "name": "Josip Matičić",
+      "art": "ensemble",
+      "gruppe": "vl",
+      "foto": "/assets/img/personen/josip-maticic.jpg",
+      "position": {
+        "de": "Notenarrangement",
+        "en": "arrangements"
+      },
+      "link": "https://www.youtube.com/watch?v=Ne_JXvRKgJU",
+      "reihenfolge": 20,
+      "aktiv": true
+    },
+    {
+      "id": "eva-breinschmid",
+      "name": "Eva Breinschmid",
+      "art": "ensemble",
+      "gruppe": "vl",
+      "foto": "/assets/img/personen/eva-breinschmid.jpg",
+      "link": "https://www.breinschmid.at/",
+      "reihenfolge": 30,
+      "aktiv": true
+    },
+    {
+      "id": "manuela-josefine-fichtinger",
+      "name": "Manuela-Josefine Fichtinger",
+      "art": "ensemble",
+      "gruppe": "klar",
+      "foto": "/assets/img/personen/manuela-josefine-fichtinger.jpg",
+      "reihenfolge": 40,
+      "aktiv": true
+    },
+    {
+      "id": "karin-huf",
+      "name": "Karin Huf",
+      "art": "ensemble",
+      "gruppe": "klar",
+      "foto": "/assets/img/personen/karin-huf.jpg",
+      "reihenfolge": 50,
+      "aktiv": true
+    },
+    {
+      "id": "anna-puskas",
+      "name": "Anna Puskas",
+      "art": "ensemble",
+      "gruppe": "vc",
+      "foto": "/assets/img/personen/anna-puskas.jpg",
+      "reihenfolge": 60,
+      "aktiv": true
+    },
+    {
+      "id": "chris-h-leeb",
+      "name": "Chris H. Leeb",
+      "art": "ensemble",
+      "gruppe": "kb",
+      "foto": "/assets/img/personen/chris-h-leeb.jpg",
+      "link": "https://www.cleebration.com/",
+      "reihenfolge": 70,
+      "aktiv": true
+    },
+    {
+      "id": "cornelia-schmidt",
+      "name": "Cornelia Schmidt",
+      "art": "ensemble",
+      "gruppe": "pno",
+      "foto": "/assets/img/personen/cornelia-schmidt.jpg",
+      "reihenfolge": 80,
+      "aktiv": true
+    }
+  ],
+  "_quelle": "Namen, Rollen, Fotos von theaterundmusik.at/orchester (Stand 15.10.2026); Fotos in Brauntönen (Tinte-Braun → Messing → Papier) eingefärbt."
 }
