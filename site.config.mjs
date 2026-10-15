@@ -9,7 +9,7 @@ export default {
 
   fonts: { selfHost: true },
 
-  locales: ["de", "en"],
+  locales: ["de", "en", "fr", "hu"],
   defaultLocale: "de",
   autoDetectLanguage: true,
 
