@@ -51,6 +51,23 @@ const SPRACHEN = {
     aelterer: "Älterer Beitrag",
     uebersetzungFolgt: "Übersetzung folgt"
   },
+  hu: {
+    formatLocale: "hu-HU",
+    alle: "Összes",
+    laedt: "Bejegyzések betöltése …",
+    laedtBeitrag: "Bejegyzés betöltése …",
+    keine: "Nem található bejegyzés.",
+    keinFeed: "Nincs feed attribútum megadva.",
+    ladefehler: "A bejegyzést nem sikerült betölteni.",
+    mehrLaden: "Továbbiak betöltése",
+    min: "perc",
+    lesezeit: "perc olvasási idő",
+    nachThemaFiltern: "Szűrés téma szerint",
+    alleBeitraege: "Összes bejegyzés",
+    neuerer: "Újabb bejegyzés",
+    aelterer: "Régebbi bejegyzés",
+    uebersetzungFolgt: "A fordítás hamarosan érkezik"
+  },
   en: {
     formatLocale: "en-GB",
     alle: "All",

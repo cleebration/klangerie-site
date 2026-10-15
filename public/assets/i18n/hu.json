@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "dates": "Időpontok",
+    "ensemble": "Együttes",
+    "programme": "Műsor",
+    "news": "Hírek",
+    "newsletter": "Hírlevél",
+    "booking": "Foglalás",
+    "bookingLong": "Ajánlatkérés szervezőknek",
+    "imprint": "Impresszum",
+    "privacy": "Adatvédelem"
+  },
+  "a11y": {
+    "skip": "Ugrás a tartalomhoz",
+    "mainnav": "Főnavigáció",
+    "home": "Kezdőlap",
+    "language": "Nyelv kiválasztása"
+  },
+  "home": {
+    "next": "Következő fellépés",
+    "who": "Kik vagyunk",
+    "cardEnsemble": "Az együttes",
+    "news": "Hírek",
+    "details": "Az időponthoz",
+    "allDates": "Összes időpont",
+    "upcoming": "Közelgő időpontok",
+    "date": "Dátum",
+    "time": "Kezdés",
+    "place": "Helyszín",
+    "subscribe": "Feliratkozás",
+    "request": "Ajánlatkérés küldése",
+    "book": "Klangerie felkérése",
+    "forHosts": "Szervezőknek",
+    "none": "A következő időpontok hamarosan érkeznek."
+  },
+  "events": {
+    "upcoming": "Közelgő időpontok",
+    "past": "Korábbi időpontok",
+    "backAll": "← Összes időpont"
+  },
+  "news": {
+    "title": "Hírek"
+  },
+  "ensemble": {
+    "title": "Az együttes"
+  },
+  "orchestra": {
+    "guests": "Vendégként",
+    "soloists": "Szólisták",
+    "more": "Tudj meg többet"
+  },
+  "programme": {
+    "title": "Műsor"
+  },
+  "booking": {
+    "title": "Klangerie felkérése"
+  },
+  "newsletter": {
+    "title": "Feliratkozás a hírlevélre"
+  },
+  "legal": {
+    "imprint": "Impresszum",
+    "privacy": "Adatvédelem",
+    "binding": "Az irányadó a német változat. Az angol fordítás kizárólag tájékoztató jellegű."
+  }
+}

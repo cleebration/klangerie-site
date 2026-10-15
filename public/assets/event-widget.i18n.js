@@ -40,6 +40,42 @@ const STRINGS = {
     aboHinweis: "Neue Termine erscheinen dann von selbst in deinem Kalender.",
     kal: { google: "Google Kalender", ics: "Apple Kalender / Outlook-Programm", outlook: "Outlook.com", m365: "Microsoft 365 (Arbeit/Schule)" }
   },
+  hu: {
+    locale: "hu-HU",
+    status: {
+      scheduled: null,
+      soldout: "Elfogyott",
+      cancelled: "Elmarad",
+      postponed: "Elhalasztva"
+    },
+    tickets: "Jegyek",
+    details: "Részletek",
+    none: "Jelenleg nincsenek események.",
+    loadError: "Az eseményeket nem sikerült betölteni.",
+    frueher: "Korábbi esemény",
+    spaeter: "Későbbi esemény",
+    alleTermine: "Összes esemény",
+    fallbackNote: "A fordítás hamarosan érkezik",
+    weitereTermine: "Összes időpont",
+    programm: "Program",
+    mitwirkende: "Közreműködők",
+    nachbericht: "Beszámoló",
+    fotos: "Fotók megtekintése",
+    einlass: "Beengedés",
+    verschobenAuf: "új időpont",
+    dieserTermin: "ez az időpont",
+    gross: "Dupla kattintás: kép nagyítása",
+    schliessen: "Bezárás",
+    kalender: "Naptárba",
+    abo: "Naptár feliratkozása",
+    aboHinweis: "Az új időpontok így automatikusan megjelennek a naptáradban.",
+    kal: {
+      google: "Google Naptár",
+      ics: "Apple Naptár / Outlook program",
+      outlook: "Outlook.com",
+      m365: "Microsoft 365 (munka/iskola)"
+    }
+  },
   en: {
     locale: "en-GB",
     status: { scheduled: null, soldout: "Sold out", cancelled: "Cancelled", postponed: "Postponed" },
