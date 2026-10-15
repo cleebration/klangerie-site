@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "dates": "Dates",
+    "ensemble": "Ensemble",
+    "programme": "Programme",
+    "news": "Actualités",
+    "newsletter": "Newsletter",
+    "booking": "Booking",
+    "bookingLong": "Demande pour les organisateurs",
+    "imprint": "Mentions légales",
+    "privacy": "Protection des données"
+  },
+  "a11y": {
+    "skip": "Aller au contenu",
+    "mainnav": "Navigation principale",
+    "home": "Accueil",
+    "language": "Choisir la langue"
+  },
+  "home": {
+    "next": "Prochain concert",
+    "who": "Qui nous sommes",
+    "cardEnsemble": "L'ensemble",
+    "news": "Actualités",
+    "details": "Voir la date",
+    "allDates": "Toutes les dates",
+    "upcoming": "Prochaines dates",
+    "date": "Date",
+    "time": "Début",
+    "place": "Lieu",
+    "subscribe": "S'inscrire",
+    "request": "Envoyer la demande",
+    "book": "Demander Klangerie",
+    "forHosts": "Pour les organisateurs",
+    "none": "Les prochaines dates seront annoncées prochainement."
+  },
+  "events": {
+    "upcoming": "Prochaines dates",
+    "past": "Dates passées",
+    "backAll": "← Toutes les dates"
+  },
+  "news": {
+    "title": "Actualités"
+  },
+  "ensemble": {
+    "title": "L'ensemble"
+  },
+  "orchestra": {
+    "guests": "Invités",
+    "soloists": "Solistes",
+    "more": "En savoir plus"
+  },
+  "programme": {
+    "title": "Programme"
+  },
+  "booking": {
+    "title": "Demander Klangerie"
+  },
+  "newsletter": {
+    "title": "Inscription à la newsletter"
+  },
+  "legal": {
+    "imprint": "Mentions légales",
+    "privacy": "Protection des données",
+    "binding": "La version allemande fait foi. La traduction française est fournie à titre informatif uniquement."
+  }
+}

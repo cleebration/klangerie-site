@@ -40,6 +40,42 @@ const STRINGS = {
     aboHinweis: "Neue Termine erscheinen dann von selbst in deinem Kalender.",
     kal: { google: "Google Kalender", ics: "Apple Kalender / Outlook-Programm", outlook: "Outlook.com", m365: "Microsoft 365 (Arbeit/Schule)" }
   },
+  fr: {
+    locale: "fr-FR",
+    status: {
+      scheduled: null,
+      soldout: "Complet",
+      cancelled: "Annulé",
+      postponed: "Reporté"
+    },
+    tickets: "Billets",
+    details: "Détails",
+    none: "Aucun événement pour le moment.",
+    loadError: "Impossible de charger les événements.",
+    frueher: "Événement précédent",
+    spaeter: "Événement suivant",
+    alleTermine: "Tous les événements",
+    fallbackNote: "Traduction à venir",
+    weitereTermine: "Toutes les dates",
+    programm: "Programme",
+    mitwirkende: "Intervenants",
+    nachbericht: "Compte rendu",
+    fotos: "Voir les photos",
+    einlass: "Ouverture des portes",
+    verschobenAuf: "nouvelle date",
+    dieserTermin: "cette date",
+    gross: "Double-clic : afficher l'image en grand",
+    schliessen: "Fermer",
+    kalender: "Ajouter au calendrier",
+    abo: "S'abonner au calendrier",
+    aboHinweis: "Les nouvelles dates apparaîtront alors automatiquement dans ton calendrier.",
+    kal: {
+      google: "Google Agenda",
+      ics: "Calendrier Apple / application Outlook",
+      outlook: "Outlook.com",
+      m365: "Microsoft 365 (travail/école)"
+    }
+  },
   hu: {
     locale: "hu-HU",
     status: {

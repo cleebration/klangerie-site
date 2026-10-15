@@ -51,6 +51,23 @@ const SPRACHEN = {
     aelterer: "Älterer Beitrag",
     uebersetzungFolgt: "Übersetzung folgt"
   },
+  fr: {
+    formatLocale: "fr-FR",
+    alle: "Tous",
+    laedt: "Chargement des articles …",
+    laedtBeitrag: "Chargement de l'article …",
+    keine: "Aucun article trouvé.",
+    keinFeed: "Aucun attribut feed défini.",
+    ladefehler: "Impossible de charger l'article.",
+    mehrLaden: "Charger plus",
+    min: "min",
+    lesezeit: "min de lecture",
+    nachThemaFiltern: "Filtrer par thème",
+    alleBeitraege: "Tous les articles",
+    neuerer: "Article plus récent",
+    aelterer: "Article plus ancien",
+    uebersetzungFolgt: "Traduction à venir"
+  },
   hu: {
     formatLocale: "hu-HU",
     alle: "Összes",
